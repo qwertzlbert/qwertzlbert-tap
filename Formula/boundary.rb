@@ -4,7 +4,7 @@
 class Boundary < Formula
   desc "Boundary"
   homepage "https://www.boundaryproject.io/"
-  version "0.16.0"
+  version "0.14.3"
 
   if OS.mac? && Hardware::CPU.arm?
     url "https://releases.hashicorp.com/boundary/0.14.3/boundary_0.14.3_darwin_arm64.zip"
