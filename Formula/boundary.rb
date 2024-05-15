@@ -7,7 +7,7 @@ class Boundary < Formula
   version "0.16.0"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://releases.hashicorp.com/boundary/0.14.3/boundary_0.14.3_netbsd_amd64.zip"
+    url "https://releases.hashicorp.com/boundary/0.14.3/boundary_0.14.3_darwin_arm64.zip"
     sha256 "1d6c9a6405f79c25fdc4c945d69587b4eb639833099ae996d7ae4f4871264769"
   end
 
